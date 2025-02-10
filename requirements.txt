@@ -1,0 +1,15 @@
+# voice-chatbot/requirements.txt
+# Core dependencies
+streamlit==1.42.0          # For web interface
+sounddevice==0.4.6         # Audio recording
+scipy==1.13.0              # Audio processing
+gtts==2.4.0                # Text-to-speech (Google TTS)
+numpy==1.26.4              # Audio data manipulation
+python-dotenv     # For future environment variables
+pydub==0.25.1              # Audio playback (alternative to sounddevice)
+groq==0.18.0
+sounddevice>=0.4.6         # Required for audio recording
+
+# TTS (Updated)
+soundfile>=0.12.1          # Required for saving and loading audio
+kokoro>=0.3.4              # Kokoro TTS for generating speech
