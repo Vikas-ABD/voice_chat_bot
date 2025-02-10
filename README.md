@@ -15,6 +15,15 @@ cd voice_chat_bot
 pip install -r requirements.txt
 ```
 
+### 2. Create a `.env` File
+- In the project directory, create a new file named `.env`.
+- Inside the `.env` file, add the following line:
+  ```sh
+  GROQ_API_KEY=your_api_key_here
+  ```
+  Replace `your_api_key_here` with your actual API key.
+
+  
 ### 3. Run the Application
 ```sh
 streamlit run app.py
